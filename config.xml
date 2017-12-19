@@ -81,7 +81,7 @@
         <splash src="resources/android/splash/drawable-port-xhdpi-screen.png" qualifier="port-xhdpi"/>
         <splash src="resources/android/splash/drawable-port-xxhdpi-screen.png" qualifier="port-xxhdpi"/>
         <splash src="resources/android/splash/drawable-port-xxxhdpi-screen.png" qualifier="port-xxxhdpi"/>
-		<hook type="after_prepare" src="remove_permissions.js"/>
+		
     </platform>
 
     <platform name="ios">
@@ -149,7 +149,12 @@
 
     <gap:config-file platform="android" parent="/manifest">
          <application android:debuggable="false" />
+		 
     </gap:config-file>
+	
+	<gap:config-file platform="android" parent="manifest" delete="true"> 
+       <uses-permission android:name="android.permission.RECORD_AUDIO" />
+</gap:config-file>
 
     <!-- See MOBILE-892 -->
     <preference name="permissions" value="none"/>
