@@ -1,4 +1,5 @@
 // (C) Copyright 2015 Martin Dougiamas
+// (C) Copyright 2015 Martin Dougiamas
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -71092,9 +71093,9 @@ angular.module('mm.addons.mod_workshop')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.moodle.cisionline",
-    "appname": "Tadawul Exams",
-    "desktopappname": "Tadawul Exams",
+    "app_id" : "com.moodle.arabonlineuniversities",
+    "appname": "Arab Online Universities",
+    "desktopappname": "Arab Online Universities",
     "versioncode" : "30400",
     "versionname" : "3.4.0",
     "cache_expiration_time" : 300000,
@@ -71105,7 +71106,7 @@ angular.module('mm.core')
 	"demo_sites": {},
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://www.TadawulExams.com",
+    "siteurl": "https://www.ArabOnlineUniversity.com",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
