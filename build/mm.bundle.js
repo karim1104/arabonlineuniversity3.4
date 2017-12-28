@@ -71106,7 +71106,7 @@ angular.module('mm.core')
 	"demo_sites": {},
     "gcmpn": "694767596569",
     "customurlscheme": "moodlemobile",
-    "siteurl": "https://www.ArabOnlineUniversity.com",
+    "siteurl": "https://www.ArabOnlineUniversities.com",
     "multisitesdisplay": "select",
     "skipssoconfirmation": "false",
     "forcedefaultlanguage": "false",
