@@ -71093,7 +71093,7 @@ angular.module('mm.addons.mod_workshop')
 angular.module('mm.core')
 
 .constant('mmCoreConfigConstants', {
-    "app_id" : "com.moodle.arabonlineuniversities",
+    "app_id" : "com.tadawul.aou",
     "appname": "Arab Online Universities",
     "desktopappname": "Arab Online Universities",
     "versioncode" : "30400",
